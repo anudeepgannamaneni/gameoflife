@@ -2,7 +2,7 @@ node ('maven') {
 
    stage('SCM') {
       // git clone
-	  git branch: 'main', url: 'https://github.com/anudeepgannamaneni/gameoflife.git'
+	  git branch: 'master', url: 'https://github.com/anudeepgannamaneni/gameoflife.git'
    }
    stage('BUILD '){
       //build using maven
